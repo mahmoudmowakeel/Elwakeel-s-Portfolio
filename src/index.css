@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Start Grid System */
+@media (min-width: 576px) {
+  /* Small Devices => Landscape Phones */
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  /* Medium Devices => Landscape Tablets */
+  .container {
+    max-width: 720px;
+  }
+  .active-header {
+    color: #3e64ff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+  
+  }
+ 
+
+  .active-slider {
+    color: #3e64ff;
+    font-weight: bolder;
+    margin-left: 25px;
+  }
+}
+@media (min-width: 992px) {
+  /* Desktops */
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  /* Large Screens */
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@keyframes example {
+  from {
+    transform: translate(0); /* Starting point */
+  }
+  to {
+    transform: translate(20px);
+  }
+}
+
+/* The element to apply the animation to */
+#animated {
+  position: absolute;
+  animation: example 1s;
+  animation-iteration-count: infinite;
+}
