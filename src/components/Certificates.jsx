@@ -33,6 +33,19 @@ function Certificates() {
           certificateLink="www.udemy.com/certificate/UC-cd632dca-561a-41b3-ba94-82c143790a9c"
         />
       </Figure>
+
+      <Figure
+        title="Understanding TypeScript"
+        bio=" Boost your JavaScript projects with TypeScript: Learn all about core types, generics, TypeScript + React or Node & more!"
+        imgUrl="../img/c3.jpg"
+        name="c3"
+        hasButton={false}
+      >
+        <CertificatesContent
+          certificateId="UC-f158c15d-8796-4873-8e92-6b0c98ab3411"
+          certificateLink="www.udemy.com/certificate/UC-f158c15d-8796-4873-8e92-6b0c98ab3411/"
+        />
+      </Figure>
     </div>
   );
 }
