@@ -26,8 +26,8 @@ function About() {
             El-Wakeel
           </li>
           <li className="mb-6">
-            <span className="mr-2 md:mr-7 font-bold">Date-of-birth:</span>{" "}
-            22/11/2000
+            <span className="mr-2 md:mr-7 font-bold">Address:</span>{" "}
+            Cairo, Egypt
           </li>
           <li className="mb-6">
             <span className="mr-2 md:mr-7 font-bold">Email:</span>
@@ -38,7 +38,7 @@ function About() {
           </li>
         </ul>
         <button className="bg-main text-white px-3 py-1 md:px-6 md:py-2 rounded-full text-md md:text-xl font-semibold mt-10     ">
-          Download CV
+          <a href="https://drive.google.com/file/d/14zugcBQYsas8_dQJPKfDxc3o5GsXPuTM/view?usp=sharing">Download CV</a>
         </button>
       </div>
     </div>
