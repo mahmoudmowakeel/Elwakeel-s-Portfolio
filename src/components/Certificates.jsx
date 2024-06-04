@@ -43,7 +43,19 @@ function Certificates() {
       >
         <CertificatesContent
           certificateId="UC-f158c15d-8796-4873-8e92-6b0c98ab3411"
-          certificateLink="www.udemy.com/certificate/UC-f158c15d-8796-4873-8e92-6b0c98ab3411/"
+          certificateLink="www.udemy.com/certificate/UC-f158c15d-8796-4873-8e92-6b0c98ab3411"
+        />
+      </Figure>
+      <Figure
+        title="JavaScript Unit Testing - The Practical Guide"
+        bio="Learn how to write automated tests (unit & integration tests) for your JavaScript projects with Vitest & Jest."
+        imgUrl="../img/c4.jpg"
+        name="c4"
+        hasButton={false}
+      >
+        <CertificatesContent
+          certificateId="UC-4227a55b-a999-4b95-87c3-84015e92d1f7"
+          certificateLink="www.udemy.com/certificate/UC-4227a55b-a999-4b95-87c3-84015e92d1f7"
         />
       </Figure>
     </div>
